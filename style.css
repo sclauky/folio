@@ -395,6 +395,18 @@ body {
     border: 1px solid rgba(139, 157, 195, 0.2);
 }
 
+/* Images de projet: carrées, non déformées */
+.project-image {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* carré */
+    object-fit: cover;   /* remplit sans déformation, recadrage si nécessaire */
+    border-radius: 12px;
+    display: block;
+    margin-bottom: var(--spacing-sm);
+    border: 1px solid rgba(184, 184, 184, 0.08);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
 .project-icon {
     font-size: 3rem;
     margin-bottom: var(--spacing-sm);
