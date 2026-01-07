@@ -10,8 +10,8 @@ ia-folio/
 ├── index.html          # Structure HTML du site
 ├── style.css           # Styles et effets visuels (glassmorphism, animations, responsive)
 ├── README.md           # Ce guide
-├── captures_prompt/    # capture des prompts
-└── cv.pdf              #
+├── captures_prompt/    # captures d’écran des prompts
+└── cv/                 # 
 ```
 
 ## ✏️ Personnaliser le contenu
